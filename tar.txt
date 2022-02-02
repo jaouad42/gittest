@@ -1,0 +1,15 @@
+tar -cvf nom_archive.tar nom_dossier/
+gzip tutoriels.tar
+
+
+ou bien
+tar -czvf nom-de-l-archive.tar.gz /chemin/vers/répertoire-ou-fichier
+
+scp -v fichier.txt appuser@exemple.com:/chemin/vers/répertoire
+
+
+smpp_iam_1.tar.gz
+appuser@smsciam:/usr/local/etc/SendXMS/received $
+
+scp -r -p appuser@smsciam:/usr/local/etc/SendXMS/received/smpp_iam_1.tar.gz user@serveur2:chemin/vers/dossier/destination
+le ficheir se trouve dans /home/appuser du serveur orange
